@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const Campaign = require('../models/campaign.js');
+const Contribution = require('../models/campaign.js');
+const Contributor = require('../models/campaign.js');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
